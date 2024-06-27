@@ -1,5 +1,12 @@
 
 
+// This repository contains a simple JavaScript function that implements a countdown timer. 
+// The timer starts from a specified time in seconds and logs the remaining time in mm:ss format. 
+// When the countdown reaches zero, it clears the interval and suggests re-sending an OTP 
+// (one-time password).
+
+
+
 // Function to start a countdown timer.
 function countDown(time) {
     // Timer function that decrements the time every 2 seconds and logs the remaining time.
